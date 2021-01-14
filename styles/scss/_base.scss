@@ -32,7 +32,7 @@ sans-serif;
 
 @mixin mq($size) {
 	@media only screen and (min-width: $size) {
-		@content
+		@content;
 	}
 }
 
@@ -46,7 +46,7 @@ html,
 body {
 	background-color: $background-color;
 	color: $font-color;
-	width: 100%;
+	width: 100vw;
 	min-height: 100vh;
 	font-family: $font-stack;
 	font-size: 22px;
@@ -64,7 +64,7 @@ footer {
 
 	p {
 		color: $stats-color;
-		font-size: .5rem;
+		font-size: 0.5rem;
 
 		@include mq(768px) {
 			font-size: 1rem;

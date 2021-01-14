@@ -6,7 +6,7 @@
 		letter-spacing: -5px;
 		font-size: 2rem;
 		font-weight: 600;
-		margin-bottom: .5rem;
+		margin-bottom: 0.5rem;
 
 		@include mq(768px) {
 			font-size: 4rem;
@@ -19,7 +19,7 @@
 		display: flex;
 		border: 2px solid $search-bar-border;
 		border-radius: 500px;
-		padding: .15rem 0.25rem .15rem .75rem;
+		padding: 0.15rem 0.25rem 0.15rem 0.75rem;
 
 		@include mq(768px) {
 			width: 80vw;
@@ -27,14 +27,14 @@
 		}
 
 		@include mq(1025px) {
-			width: 65vw;
+			width: 60vw;
 		}
 
 		input[type="text"] {
 			flex-grow: 1;
 			font-size: 0.75rem;
 			text-align: left;
-			letter-spacing: .1rem;
+			letter-spacing: 0.1rem;
 			border: 0;
 			outline: none;
 			min-width: 150px;
@@ -47,7 +47,7 @@
 		.button {
 			cursor: pointer;
 			border: 0;
-			background-color: transparent;
+			background: transparent;
 			min-width: 48px;
 			min-height: 48px;
 			outline: none;
@@ -65,7 +65,7 @@
 		.button:hover,
 		.button:focus {
 			i {
-				padding-bottom: .5rem;
+				padding-bottom: 0.5rem;
 				border-bottom-width: 1px;
 				border-bottom-style: solid;
 			}
@@ -98,7 +98,7 @@
 			border-right: thin solid $clear-button-color;
 
 			@include mq(768px) {
-				padding: 1rem;
+				padding: 0 1rem;
 			}
 		}
 	}
