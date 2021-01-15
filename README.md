@@ -1,6 +1,6 @@
 # WikiGo!
 
-A search app with Wikipédia API
+A search app with Wikipedia API
 
 ## What did i use ?
 <ul>
